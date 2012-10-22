@@ -23,18 +23,14 @@
 >
     <Key
         latin:keyLabel="a"
-        latin:keyHintLabel="\@"
-        latin:additionalMoreKeys="\\@"
         latin:moreKeys="!text/more_keys_for_a" />
     <Key
         latin:keyLabel="s"
-        latin:keyHintLabel="#"
-        latin:additionalMoreKeys="#"
         latin:moreKeys="!text/more_keys_for_s" />
     <Key
         latin:keyLabel="d"
-        latin:keyHintLabel="$"
-        latin:additionalMoreKeys="$"
+        latin:keyHintLabel="€"
+        latin:additionalMoreKeys="€"
         latin:moreKeys="!text/more_keys_for_d" />
     <Key
         latin:keyLabel="f"

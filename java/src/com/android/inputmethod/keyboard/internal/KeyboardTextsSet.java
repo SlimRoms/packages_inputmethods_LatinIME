@@ -257,10 +257,11 @@ public final class KeyboardTextsSet {
         // U+20AC: "€" EURO SIGN
         // U+00A5: "¥" YEN SIGN
         // U+20B1: "₱" PESO SIGN
-        /* 45 */ "\u00A2,\u00A3,\u20AC,\u00A5,\u20B1",
-        /* 46 */ "\u00A2,\u00A3,$,\u00A5,\u20B1",
-        /* 47 */ "\u00A2,$,\u20AC,\u00A5,\u20B1",
-        /* 48 */ "\u00A2,$,\u20AC,\u00A3,\u00A5,\u20B1",
+        // U+20B9: "." RUPEE SIGN
+        /* 45 */ "\u00A2,\u00A3,\u20AC,\u00A5,\u20B1,\u20B9",
+        /* 46 */ "\u00A2,\u00A3,$,\u00A5,\u20B1,\u20B9",
+        /* 47 */ "\u00A2,$,\u20AC,\u00A5,\u20B1,\u20B9",
+        /* 48 */ "\u00A2,$,\u20AC,\u00A3,\u00A5,\u20B1,\u20B9",
         /* 49 */ "!fixedColumnOrder!8,\",\',#,-,:,!,\\,,?,@,&,\\%,+,;,/,(,)",
         // U+2020: "†" DAGGER
         // U+2021: "‡" DOUBLE DAGGER
@@ -799,8 +800,12 @@ public final class KeyboardTextsSet {
         // U+00E5: "å" LATIN SMALL LETTER A WITH RING ABOVE
         // U+0101: "ā" LATIN SMALL LETTER A WITH MACRON
         /* 0 */ "\u00E4,\u00E2,\u00E0,\u00E1,\u00E6,\u00E3,\u00E5,\u0101",
+        // U+00E9: "é" LATIN SMALL LETTER E WITH ACUTE
+        // U+00E8: "è" LATIN SMALL LETTER E WITH GRAVE
+        // U+00EA: "ê" LATIN SMALL LETTER E WITH CIRCUMFLEX
+        // U+00EB: "ë" LATIN SMALL LETTER E WITH DIAERESIS
         // U+0117: "ė" LATIN SMALL LETTER E WITH DOT ABOVE
-        /* 1 */ "\u0117",
+        /* 1 */ "\u00E9,\u00E8,\u00EA,\u00EB,\u0117",
         /* 2 */ null,
         // U+00F6: "ö" LATIN SMALL LETTER O WITH DIAERESIS
         // U+00F4: "ô" LATIN SMALL LETTER O WITH CIRCUMFLEX
