@@ -104,8 +104,10 @@ public final class AndroidSpellCheckerService extends SpellCheckerService
         mLanguageToScript.put("nb", SCRIPT_LATIN);
         mLanguageToScript.put("nl", SCRIPT_LATIN);
         mLanguageToScript.put("pt", SCRIPT_LATIN);
-        mLanguageToScript.put("sl", SCRIPT_LATIN);
+        mLanguageToScript.put("hu", SCRIPT_LATIN);
         mLanguageToScript.put("ru", SCRIPT_CYRILLIC);
+        mLanguageToScript.put("sv", SCRIPT_LATIN);
+        mLanguageToScript.put("sl", SCRIPT_LATIN);
     }
 
     @Override public void onCreate() {
