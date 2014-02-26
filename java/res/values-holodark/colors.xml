@@ -53,6 +53,7 @@
     <color name="typed_word_color_holo">#D8F0F0F0</color>
     <color name="suggested_word_color_holo">#B2F0F0F0</color>
     <color name="highlight_translucent_color_holo">#99E0E0E0</color>
+    <color name="key_hint_letter_color_holo">#80FFFFFF</color>
     <!-- Color resources for setup wizard and tutorial -->
     <color name="setup_background">#FFEBEBEB</color>
     <color name="setup_text_dark">#FF707070</color>
